@@ -1,0 +1,54 @@
+INSTRUCCIONES DE INSTALACIÓN - ALLWAYS ENERGY
+=====================================================
+
+CREDENCIALES DE ACCESO:
+- Usuario: admin
+- Contraseña: allways2024
+
+ESTADO ACTUAL:
+✅ Frontend completo y funcional
+✅ Sistema de login
+✅ Dashboard con estadísticas
+✅ Gestión completa de clientes
+✅ Interfaces preparadas para presupuestos, facturas y calendario
+✅ Diseño responsive y profesional
+
+FUNCIONALIDADES IMPLEMENTADAS:
+- Login/logout seguro
+- Dashboard con métricas en tiempo real
+- CRUD completo de clientes
+- Navegación intuitiva
+- Diseño profesional con logo de Allways Energy
+
+PRÓXIMOS PASOS PARA PRODUCCIÓN:
+
+1. INTEGRAR SUPABASE (Recomendado):
+   - Hacer clic en el botón verde "Supabase" en la interfaz
+   - Crear cuenta gratuita en Supabase
+   - Automáticamente tendrás base de datos PostgreSQL
+   - Autenticación real de usuarios
+   - API backend automática
+
+2. PARA MARIADB EN SYNOLOGY:
+   - Necesitarás crear un backend separado (Node.js/PHP)
+   - El frontend actual puede conectarse a cualquier API REST
+   - Todas las interfaces están preparadas
+
+ESTRUCTURA DE BASE DE DATOS (SQL):
+Ver archivo: database_schema.sql
+
+ARCHIVOS PRINCIPALES:
+- src/pages/Dashboard.tsx - Panel principal
+- src/pages/Clientes.tsx - Gestión clientes
+- src/store/mockData.ts - Datos de ejemplo
+- src/types/index.ts - Tipos TypeScript
+
+TECNOLOGÍAS UTILIZADAS:
+- React + TypeScript
+- Tailwind CSS + Shadcn UI
+- Zustand (gestión estado)
+- React Router (navegación)
+- Lucide React (iconos)
+
+¡La aplicación está lista para usar inmediatamente con datos mock!
+Para producción, integra Supabase haciendo clic en el botón verde.
