@@ -1,7 +1,7 @@
 import { useAuthStore } from '@/store/authStore';
 import { Login } from '@/components/Login';
 import { Layout } from '@/components/Layout';
-import { Dashboard } from '@/pages/Dashboard';
+import { Dashboard } from './Dashboard';
 
 const Index = () => {
   const { isAuthenticated } = useAuthStore();
