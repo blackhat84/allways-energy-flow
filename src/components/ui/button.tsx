@@ -20,7 +20,7 @@ const buttonVariants = cva(
         link: "text-primary underline-offset-4 hover:underline",
         success: "bg-success text-success-foreground hover:bg-success/90 shadow-soft",
         warning: "bg-warning text-warning-foreground hover:bg-warning/90 shadow-soft",
-        energy: "bg-gradient-energy text-primary-foreground hover:opacity-90 shadow-elegant",
+        energy: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-soft",
       },
       size: {
         default: "h-10 px-4 py-2",
